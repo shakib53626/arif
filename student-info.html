@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="header">
+    <header class="header ab-header">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
@@ -23,9 +23,9 @@
                 </div>
                 <div class="menu-bar">
                     <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="student-info.html">Students Information</a></li>
+                        <li><a href="student-info.html" class="active">Students Information</a></li>
                         <li><a href="">Location</a></li>
                         <li><a href="">Our Blog</a></li>
                         <li><a href="" class="btn">LogIn/SingUp</a></li>
@@ -36,55 +36,61 @@
     </header>
 
 
-
-    <section class="home-info">
+    <section class="students">
         <div class="container">
-            <div class="camera-content-title">
-                <h1>Camera Content</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, incidunt?</p>
-            </div>
-            <div class="camera-content">
-                <div class="ca-img">
-                    <img src="img/img1.jpg" alt="">
-                    <p>Undergraduate & Graduate Programs</p>
+            <div class="student-info">
+                <div class="student-info-title">
+                    <h1>Fill up Your Information</h1>
                 </div>
-                <div class="ca-img">
-                    <img src="img/img2.jpg" alt="">
-                    <p>Tuition Fees & Scholarship </p>
+                <div class="form">
+                    <div class="name">
+                        <form action="">
+                            <label for="">Enter Your Name:</label>
+                            <input type="text" class="me" placeholder="First Name">
+                            <input type="text" class="me" placeholder="Last Name">
+                        </form>
+                    </div>
+                    <div class="gender">
+                        <label for="">Gender:</label>
+                        <select name="" id="">
+                            <option value=""><a href="" style=" font-size: 24px;">Select Your Gender</a></option>
+                            <option value=""><a href="">Male</a></option>
+                            <option value=""><a href="">Female</a></option>
+                            <option value=""><a href="">Other</a></option>
+                        </select>
+                    </div>
+                    
                 </div>
-                <div class="ca-img">
-                    <img src="img/img3.jpg" alt="">
-                    <p>Why study at GUB?</p>
-                </div>
-                <div class="ca-img">
-                    <img src="img/img4.jpg" alt="">
-                    <p>Intership & job Opportunities</p>
-                </div>
-                <div class="ca-img">
-                    <img src="img/img5.jpg" alt="">
-                    <p>Admission Contacts & Process</p>
-                </div>
-            </div>
-        </div>
-        <div class="line">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        <div class="container">
-            <div class="ad-content">
-                <div class="admission">
-                    <h3>Admission</h3>
-                    <p>Green University of Bangladesh (GUB), one of the leading 
-                        private universities in Bangladesh, was founded on 09 January 
-                        in 2003 under the Private University Act 1992 and its amendment in
-                         1998.</p>
-                </div>
-                <div class="admission ad-2">
-                    <h3>ACADEMIC SUPPORT</h3>
-                    <p>GUB is specially committed to provide quality education at an affordable cost.
-                         Quality is ensured through regular classes, quizzes, individual presentations,
-                         strict examinations and other academic and administrative measures.</p>
+                <div class="form">
+                    <div class="session">
+                        <label for="">Select Your Semester : </label>
+                        <select name="" id="">
+                            <option value=""><a href="">Select Your Semester</a></option>
+                            <option value=""><a href="">1st Semester</a></option>
+                            <option value=""><a href="">2nd Semester</a></option>
+                            <option value=""><a href="">3rd Semester</a></option>
+                            <option value=""><a href="">4th Semester</a></option>
+                            <option value=""><a href="">5th Semester</a></option>
+                            <option value=""><a href="">6th Semester</a></option>
+                            <option value=""><a href="">7th Semester</a></option>
+                            <option value=""><a href="">8th Semester</a></option>
+                        </select>
+                    </div>
+                    <div class="session">
+                        <label for="">Select Your Department : </label>
+                        <select name="" id="">
+                            <option value=""><a href="">Select Your Department</a></option>
+                            <option value=""><a href="">CSE</a></option>
+                            <option value=""><a href="">EEE</a></option>
+                            <option value=""><a href="">BBA</a></option>
+                            <option value=""><a href="">ENGLISH</a></option>
+                            <option value=""><a href="">LAW</a></option>
+                        </select>
+                    </div>
+                    <div class="session">
+                        <label for="">ID Number : </label>
+                        <input type="Text" placeholder="Enter Your Id">
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,26 +98,6 @@
 
 
 
-
-    <section class="wlc">
-        <div class="container">
-            <h1><span>WELCOME</span> TO GREEN UNIVERSITY OF BANGLADESH (GUB)</h1>
-            <hr>
-            <p>Green University of Bangladesh (GUB),
-                 one of the leading private universities in Bangladesh,
-                  was founded in 2003 under the Private University Act 1992 with
-                   a vision to create a global higher education center of 
-                   excellence. GUB offers students from all walks of life the 
-                   advantages of an affordable, personalized education of global 
-                   standard. As a modern, dynamic, and innovative institution for 
-                   undergraduate and graduate students, GUB lays stress on quality 
-                   education imparted by a galaxy of highly qualified, dynamic,
-                    dedicated,
-                 and well-experienced faculty members with global exposure.<br><br>
-                 GUB’s greatest resource in fulfilling its mission is its faculty of about 300 distinguished scholars and educators, whose scholarly research experiences and teaching skills enrich the students’ classroom environment. To ensure quality education, GUB is equipped with modern infrastructural facilities, latest academic curricula, Internet with Wi-Fi facility, air-conditioned classrooms, and seminar halls supported with multi-media, rich libraries, most sophisticated laboratories, students' cafeterias, standby generators, etc. The students of GUB experience a vibrant university community with a diverse range of academic offerings and about 6,500 participating students.
-                </p>
-        </div>
-    </section>
     <footer>
         <div class="container d-f">
             <div class="footer-left">

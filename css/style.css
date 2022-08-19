@@ -38,6 +38,9 @@ a{
     padding: 0 10px;
     transition:0.5s;
 }
+.menu-bar .active{
+    color: #F4772E !important;
+}
 .menu-bar ul li a:hover{
     color:#F4772E;
     transition:0.5s;
@@ -175,6 +178,9 @@ footer{
     grid-template-columns: auto auto;
     row-gap: 15px;
 }
+.footer-img img{
+    cursor: pointer;
+}
 .footer-middle{
     width:30%;
     margin-left: 10px;
@@ -185,7 +191,7 @@ footer{
 }
 .footer-middle p{
     color:#5a5a5a;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .footer-right{
     margin-left: 15px;
@@ -205,4 +211,175 @@ footer{
 }
 .footer-end span{
     color: green;
+}
+
+
+
+
+
+
+/* *********************************************************************
+*************************************************************************
+                   About Section Css Code Start 
+************************************************************************
+*************************************************************************/
+.ab-header{
+    margin-bottom: 0!important;
+}
+.banner{
+    background-image: url(../img/banner_all.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    padding: 250px 0;
+}
+.ban-title{
+    background-color:#4BB93E;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 60px;
+}
+.gub-content{
+    display: flex;
+}
+.gub-list{
+    width: 24%;
+}
+.gub-top{
+    margin-bottom: 20px;
+}
+.gub-top ul li a{
+    display: inline-block;
+    padding: 15px 40px 15px 12px;
+    border: 0.1px solid #939393;
+    width:220px;
+    color: #3a3a3a;
+
+}
+.gub-top ul li a:hover{
+    background-color: #ededed;
+}
+.gub-top .active{
+    color: #fff;
+    background-color: #4BB93E;
+}
+.gub-top .active a{
+    color: #fff;
+    font-weight:600;
+    border: none;
+}
+.gub-top .active a:hover{
+    background-color: #4BB93E;
+
+}
+.gub-top span{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.gub-text{
+    text-align: center;
+    margin-left: 30px;
+}
+.gub-text hr{
+    margin-bottom: 60px;
+}
+.gub-text h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600; 
+    color: #99cc00;  
+}
+.gub-text p{
+    text-align: left;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+.students{
+    padding: 80px 0;
+}
+.student-info-title h1{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #99cc00;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+}
+.name form label{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 10px;
+}
+.name form input{
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.name form input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+.name form input::placeholder{
+    font-size: 18px;
+    color: rgb(3, 3, 150);
+}
+.me{
+    margin-right: 20px;
+}
+
+select{
+    background:none;
+    border: 1px solid #939393;
+    padding: 12px 20px;
+    width: 330px;
+    border-radius: 5px;
+}
+.gender label{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 10px;
+}
+.session select{
+    width: 330px;
+}
+.session label{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 10px;
+}
+.session{
+    margin-right: 30px;
+}
+.session input{
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.session input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+.session input::placeholder{
+    font-size: 18px;
+    color: rgb(3, 3, 150);
 }
